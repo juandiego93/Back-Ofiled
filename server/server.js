@@ -12,7 +12,6 @@ app.use(require('./routes/index'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
-app.use(express.static(path.resolve(__dirname, '../public')))
 
 app.listen((process.env.PORT), function () {
     console.log('Server running:', process.env.PORT);
