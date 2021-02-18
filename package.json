@@ -1,0 +1,25 @@
+{
+  "name": "05-rest-server",
+  "version": "1.0.0",
+  "description": "rest server- cafe / nodeJS Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "nodemon": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Diego Osorio Castrillón",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "build": "^0.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "google-auth-library": "^6.1.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.16",
+    "mongoose-unique-validator": "^2.0.3",
+    "underscore": "^1.12.0"
+  }
+}
